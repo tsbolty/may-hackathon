@@ -11,11 +11,9 @@ type Props = {
 export function Details({ data }: Props) {
   return (
     <div>
-      <div>
-        {data?.map((field) => (
-          <DetailItem key={createId()} field={field} />
-        ))}
-      </div>
+      {data?.map((field) => (
+        <DetailItem key={createId()} field={field} />
+      ))}
     </div>
   );
 }
