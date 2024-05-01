@@ -1,6 +1,8 @@
-import { Accordion } from "@mantine/core";
 import { Section } from "../types/section";
 
+import classes from "./Accordion.module.css";
+
+import { Accordion } from "@mantine/core";
 import { AccordionRow } from "./AccordionRow";
 
 type Props = {
@@ -21,5 +23,9 @@ export function DemoAccordion({ data }: Props) {
     </Accordion.Item>
   ));
 
-  return <Accordion defaultValue="Apples">{items}</Accordion>;
+  return (
+    <div className={classes.container}>
+      <Accordion>{items}</Accordion>
+    </div>
+  );
 }

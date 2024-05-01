@@ -1,5 +1,7 @@
 import "@bamboorose/br-components-2.0/dist/style.css";
 import "@mantine/core/styles.css";
+import "@mantine/dates/styles.css";
+
 import { MantineProvider } from "@mantine/core";
 
 import { Button } from "@bamboorose/br-components-2.0";
