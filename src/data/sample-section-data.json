@@ -8,7 +8,7 @@
           "label": "Item Name",
           "datatype": "VARCHAR",
           "table": "QUOTE",
-          "value": "a value",
+          "value": "Demo shirt",
           "acl": 15
         },
         {
@@ -16,7 +16,7 @@
           "label": "Item Description",
           "datatype": "VARCHAR",
           "table": "QUOTE",
-          "value": "a value",
+          "value": "This is a demo shirt",
           "acl": 15
         },
         {
@@ -24,7 +24,7 @@
           "label": "Style No",
           "datatype": "VARCHAR",
           "table": "QUOTE",
-          "value": "a value",
+          "value": "o8ho1f",
           "acl": 15
         },
         {
