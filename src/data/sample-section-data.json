@@ -6,9 +6,9 @@
         {
           "field": "ALT_DESC1",
           "label": "Item Name",
-          "datatype": "VARCHAR",
+          "datatype": "BOOLEAN",
           "table": "QUOTE",
-          "value": "a value",
+          "value": "true",
           "acl": 15
         },
         {
@@ -17,7 +17,7 @@
           "datatype": "VARCHAR",
           "table": "QUOTE",
           "value": "a value",
-          "acl": 15
+          "acl": 1
         },
         {
           "field": "ITEM_NO",
@@ -197,7 +197,7 @@
           "label": "In DC Date",
           "datatype": "DATE",
           "table": "QUOTE",
-          "value": "a value",
+          "value": "2024-05-01T19:29:13.317Z",
           "acl": 15
         },
         {
@@ -213,7 +213,7 @@
           "label": "Hierarchy Id",
           "datatype": "INTEGER",
           "table": "QUOTE",
-          "value": "a value",
+          "value": "23",
           "acl": 15
         }
       ]
