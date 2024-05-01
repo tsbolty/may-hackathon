@@ -6,9 +6,9 @@
         {
           "field": "ALT_DESC1",
           "label": "Item Name",
-          "datatype": "BOOLEAN",
+          "datatype": "VARCHAR",
           "table": "QUOTE",
-          "value": "true",
+          "value": "Demo shirt",
           "acl": 15
         },
         {
@@ -16,21 +16,21 @@
           "label": "Item Description",
           "datatype": "VARCHAR",
           "table": "QUOTE",
-          "value": "a value",
-          "acl": 1
+          "value": "This is a demo shirt",
+          "acl": 15
         },
         {
           "field": "ITEM_NO",
           "label": "Style No",
           "datatype": "VARCHAR",
           "table": "QUOTE",
-          "value": "a value",
-          "acl": 15
+          "value": "o8ho1f",
+          "acl": 11
         },
         {
           "field": "REQUEST_NO",
           "label": "Request No",
-          "datatype": "VARCHAR",
+          "datatype": "BOOLEAN",
           "table": "QUOTE",
           "value": "a value",
           "acl": 15

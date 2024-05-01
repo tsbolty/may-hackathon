@@ -7,14 +7,15 @@ import { MantineProvider } from "@mantine/core";
 import { Button } from "@bamboorose/br-components-2.0";
 import { DemoAccordion } from "./components/Accordion";
 import sampleSectionData from "./data/sample-section-data.json";
+import { Details } from "./components/details";
+import { getPrimaryFields } from "./utils/get-primary-fields";
 
 function App() {
   return (
     <MantineProvider>
-      <div>
-        <Button>RoseUI Button</Button>
-        <DemoAccordion data={sampleSectionData.sections} />
-      </div>
+      <Button>RoseUI Button</Button>
+      <Details data={getPrimaryFields(sampleSectionData.sections)} />
+      <DemoAccordion data={sampleSectionData.sections} />
     </MantineProvider>
   );
 }
