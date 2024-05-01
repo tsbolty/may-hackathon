@@ -1,0 +1,19 @@
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.field {
+  flex: 1;
+}
+
+.value {
+  flex: 1;
+}
+
+.notEditing {
+  border: none;
+  background-color: transparent;
+}
