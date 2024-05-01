@@ -1,5 +1,7 @@
 import { Accordion } from "@mantine/core";
-import { Section } from "./types/techspec";
+import { Section } from "../types/section";
+
+import { AccordionRow } from "./AccordionRow";
 
 type Props = {
   data: Array<Section>;
@@ -7,13 +9,12 @@ type Props = {
 
 export function DemoAccordion({ data }: Props) {
   const items = data.map((item) => (
-    <Accordion.Item key={item.tag} value={item.tag}>
+    <Accordion.Item key={item.name} value={item.name}>
       <Accordion.Control>{item.name}</Accordion.Control>
       <Accordion.Panel>
-        {item.fieldsAndLabels.map((field) => (
+        {item.fields.map((field) => (
           <Accordion.Item key={field.label} value={field.label}>
-            {/* <Accordion.Control>{field.label}</Accordion.Control> */}
-            <div>{field.label}</div>
+            <AccordionRow field={field} />
           </Accordion.Item>
         ))}
       </Accordion.Panel>
