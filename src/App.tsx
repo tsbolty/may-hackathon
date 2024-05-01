@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "@bamboorose/br-components-2.0/dist/style.css";
+import "@mantine/core/styles.css";
+import { MantineProvider } from "@mantine/core";
+
+import { Button } from "@bamboorose/br-components-2.0";
+import { DemoAccordion } from "./Accordion";
+import sampleSectionData from "./data/sample-section-data.json";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MantineProvider>
+      <div>
+        <Button>RoseUI Button</Button>
+        <DemoAccordion data={sampleSectionData.sections} />
+      </div>
+    </MantineProvider>
   );
 }
 

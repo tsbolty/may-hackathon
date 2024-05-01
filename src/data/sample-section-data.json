@@ -1,0 +1,213 @@
+{
+  "sections": [
+    {
+      "name": "Product Information",
+      "tag": "Product Information",
+      "fieldsAndLabels": [
+        {
+          "field": "ALT_DESC1",
+          "label": "Item Name",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "DESCRIPTION",
+          "label": "Item Description",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "ITEM_NO",
+          "label": "Style No",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "REQUEST_NO",
+          "label": "Request No",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "STATUS",
+          "label": "Status",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "RESELL_PRICE",
+          "label": "Target Retail",
+          "datatype": "DECIMAL",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "BUY_PROGRAM_NO",
+          "label": "Buy Program",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "PRODUCT_CATEGORY",
+          "label": "Product Category ",
+          "datatype": "VARCHAR",
+          "validationId": 1115,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "CATEGORY_ELEMENTS1",
+          "label": "Category Element 1",
+          "datatype": "VARCHAR",
+          "validationId": 1116,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "CATEGORY_ELEMENTS2",
+          "label": "Category Element 2",
+          "datatype": "VARCHAR",
+          "validationId": 1117,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "FABRIC_CATEGORY",
+          "label": "Fabrication",
+          "datatype": "VARCHAR",
+          "validationId": 1092,
+          "isShowDescription": true,
+          "table": "QUOTE"
+        },
+        {
+          "field": "TRAIT_CODE",
+          "label": "Trait",
+          "datatype": "VARCHAR",
+          "validationId": 1134,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "PACK_TYPE",
+          "label": "Pack Type",
+          "datatype": "VARCHAR",
+          "validationId": 1093,
+          "isShowDescription": true,
+          "table": "QUOTE"
+        }
+      ]
+    },
+    {
+      "name": "Product Lifecycle ",
+      "tag": "Product Lifecycle",
+      "fieldsAndLabels": [
+        {
+          "field": "CREATE_USER",
+          "label": "Create User",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "MODIFY_USER",
+          "label": "Modified By",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        }
+      ]
+    },
+    {
+      "name": "Actors",
+      "tag": "Actors",
+      "fieldsAndLabels": [
+        {
+          "field": "PRODMGR",
+          "label": "Product Manager",
+          "datatype": "VARCHAR",
+          "validationId": 1111,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "DESIGNER",
+          "label": "Designer",
+          "datatype": "VARCHAR",
+          "validationId": 1111,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "TECH_DESIGNER",
+          "label": "Tech Designer",
+          "datatype": "VARCHAR",
+          "validationId": 1111,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        },
+        {
+          "field": "PATTERN_MAKER",
+          "label": "Pattern Maker",
+          "datatype": "VARCHAR",
+          "validationId": 1111,
+          "isShowDescription": true,
+          "table": "QUOTE_EXT"
+        }
+      ]
+    },
+    {
+      "name": "Hierarchy Information",
+      "tag": "Hierarchy Information",
+      "fieldsAndLabels": [
+        {
+          "field": "SEASON",
+          "label": "Season",
+          "datatype": "VARCHAR",
+          "validationId": 1091,
+          "isShowDescription": true,
+          "table": "QUOTE"
+        },
+        {
+          "field": "DC_DATE",
+          "label": "In DC Date",
+          "datatype": "DATE",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "REF_NO",
+          "label": "Meeting Number",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        },
+        {
+          "field": "HIERARCHY_ID",
+          "label": "Hierarchy Id",
+          "datatype": "INTEGER",
+          "isShowDescription": false,
+          "table": "QUOTE"
+        }
+      ]
+    },
+    {
+      "name": "Color and Artwork Information",
+      "tag": "color_information",
+      "fieldsAndLabels": [
+        {
+          "field": "COLORWAY_NAME",
+          "label": "Colorway",
+          "datatype": "VARCHAR",
+          "isShowDescription": false,
+          "table": "COLORWAY_H"
+        }
+      ]
+    }
+  ]
+}
